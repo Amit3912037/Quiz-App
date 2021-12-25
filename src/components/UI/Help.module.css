@@ -1,0 +1,87 @@
+.cart-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 20rem;
+  overflow: auto;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #5a1a01;
+  border-color: #5a1a01;
+  color: white;
+}
+
+.actions .button--alt {
+  color: #8a2b06;
+}
+
+.actions .button {
+  background-color: #8a2b06;
+  color: white;
+}
+
+.container {
+  background-color: white;
+  height: 80%;
+  width: 80%;
+  border-radius: 20px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  margin-bottom: 0%;
+}
+.container h2 {
+  margin: 0;
+}
+.square_green {
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  margin-right: 5px;
+}
+
+.instruction {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.square_pink {
+  width: 40px;
+  height: 40px;
+  background-color: pink;
+  margin-right: 5px;
+}
+
+.square_blue {
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  margin-right: 5px;
+}
+.square_grey {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(204, 201, 201);
+  margin-right: 5px;
+}
+.square_purple {
+  width: 40px;
+  height: 40px;
+  background-color: purple;
+  margin-right: 5px;
+}

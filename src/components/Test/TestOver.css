@@ -1,0 +1,34 @@
+.testover_container {
+  text-align: center;
+}
+.testover_container div {
+  border: 1px solid grey;
+  padding: 10px;
+  width: 20%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.result_visited {
+  background-color: violet;
+}
+.result_attempted {
+  background-color: rgb(89, 89, 235);
+}
+.result_correct {
+  background-color: lightgreen;
+}
+.result_wrong {
+  background-color: rgb(223, 87, 87);
+}
+
+.logout_button {
+  background-color: rgb(6, 6, 187);
+  padding: 10px;
+  border: 2px solid rgb(58, 58, 252);
+  color: white;
+}
+.logout_button:hover {
+  transform: scale(1.1);
+  background-color: rgb(2, 2, 94);
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.option {
+  box-shadow: 1px 4px 5px rgb(230, 226, 226);
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.option.active {
+  background-color: rgb(153, 197, 153);
+}

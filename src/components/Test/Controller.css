@@ -1,0 +1,13 @@
+.side_barHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.help_btn {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  color: blue;
+}

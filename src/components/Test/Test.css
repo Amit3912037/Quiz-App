@@ -1,0 +1,35 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.side_bar {
+  flex: 0.29;
+  box-shadow: 1px 4px 5px rgb(230, 226, 226), -0.2em 0 0.4em rgb(230, 226, 226);
+  height: 84vh;
+  margin-left: 1.2rem;
+  margin-right: 1rem;
+  border-radius: 7px;
+}
+.pagination {
+  padding: 25px;
+}
+.number_button {
+  background: rgb(204, 201, 201);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  margin: 6px;
+  cursor: pointer;
+}
+.number_button.visited {
+  background-color: purple;
+}
+.number_button.answered {
+  background-color: green;
+}
+.number_button.active {
+  background-color: blue;
+}

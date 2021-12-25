@@ -1,0 +1,52 @@
+.login_container {
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 0 20px;
+  background-color: white;
+}
+.login_container h1 {
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.login_container form label {
+  margin-top: 10px;
+  display: inline-block;
+}
+.user_input {
+  height: 30px;
+  background-color: white;
+  width: 98%;
+  border: 1px solid gray;
+}
+
+.login_button {
+  background: #3010e6;
+  border-radius: 2px;
+  color: white;
+  width: 100%;
+  border: 1px solid;
+  margin-top: 25px;
+  padding: 10px;
+  cursor: pointer;
+}
+.login_button:hover {
+  background-color: #5335fa;
+}
+.clickhere {
+  background: #be4811;
+  border-radius: 2px;
+  color: white;
+  border: 1px solid;
+  padding: 10px;
+  cursor: pointer;
+}
+.clickhere:hover {
+  background: #802e08;
+}
